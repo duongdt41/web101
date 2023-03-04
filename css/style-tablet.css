@@ -1,0 +1,67 @@
+@media (max-width: 992px) {
+  /* KHU VỰC NAV MENU */
+
+  .navigation .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .nav-avatar {
+    display: none;
+  }
+  .nav3 {
+    border-left: none;
+  }
+
+  /* KHU VƯC ABOUT - THÔNG TIN CÁ NHÂN */
+
+  #target,
+  #personal-info {
+    padding: 30px 30px;
+  }
+
+  /* KHU VỰC KINH NGHIỆP CÔNG VIỆC */
+
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* CHỨNG CHỈ GIẢI THƯỜNG */
+
+  .reward {
+    grid-template-columns: 1fr 1px 1fr;
+  }
+  .content-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .content-2 {
+    grid-column: -2/-1;
+    grid-row: 2/3;
+  }
+  .content-3 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .reward-pic img {
+    width: 100%;
+    padding: 0px;
+  }
+
+  /* DỰ ÁN - PROJECT */
+  .project-container {
+    gap: 5px;
+    margin: 5px 0px;
+  }
+
+  .project {
+    grid-template-columns: 90px 1fr;
+  }
+  .project-year {
+    margin: 6px 15%;
+    grid-row: 3/5;
+    align-self: start !important;
+  }
+
+  .project div {
+    padding: 5px 5px;
+  }
+}
